@@ -1,0 +1,16 @@
+cvoc = 0
+frase  =  input ( "Ingrese frase a usar:" )
+para  coche  en  frase :
+    si el  coche está  en ( "a" , "e" , "i" , "o" , "u" , "A" , "E" , "I" , "O" , "U" ):
+        si  coche  en [ "A" , "E" , "I" , "O" , "U" ]:
+            Seguir
+        otra cosa :
+           cvoc  =  cvoc  +  1
+print ( "" "Cantidad vocales: {}" "" . formato ( cvoc ))
+
+def  vocales ( frase ):
+    para  coche  en  frase :
+        si  coche  en ( 'a' , 'e' , 'i' , 'o' , 'u' ):
+            imprimir ( coche )
+oracion  =  input ( 'Ingrese una oracion:' )
+vocales ( oracion . inferior ())
